@@ -10,7 +10,7 @@ const nuevoNum = 8;
 const nuevoBool = false;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - 5 === '5';
+const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
 const nuevaMultiplicacion = 10 * 4 === 40 ;
@@ -48,6 +48,7 @@ function resta(x, y) {
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
+  var multiplica = x*y;
   return x * y;
 }
 
@@ -175,11 +176,11 @@ function combinarNombres(nombre, apellido) {
   return nombre + ' ' +apellido;
 }
 
-function obtenerSaludo(nombre) {
+function obtenerSaludo(name) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  var saludo = 'Hola' + nombre + '!';
+  var saludo = "Hola " + name + "!";
   return saludo;
 }
 

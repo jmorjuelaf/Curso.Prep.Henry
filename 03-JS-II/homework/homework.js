@@ -5,7 +5,7 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
-  if(x < y){
+  if(x > y){
     return x;
   } else {
     return y;
@@ -19,14 +19,15 @@ function saludo(idioma) {
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
   if(idioma === 'aleman') {
-    return "Guten Tag";
-  }else if (idioma === 'mandarin'){
+    return "Guten Tag!";
+  } else if (idioma === 'mandarin') {
     return "Ni Hao!";
-  }else if(idioma === 'ingles'){
+  } else if(idioma === 'ingles') {
     return "Hello!";
-  }else{
+  } else {
     return "Hola!";
   }
+
 }
 
 function esDiezOCinco(numero) {
@@ -81,9 +82,9 @@ function esPrimo(numero) {
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
   if(numero < 2) return false;
-  if(numero === 2) return true;
+
   for(var i = 2; i < numero; i++){
-    if(numero % 1 === 0) {  
+    if(numero % i === 0) {  
       return false;   
     }
   }

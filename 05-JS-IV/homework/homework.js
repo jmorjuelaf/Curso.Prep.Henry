@@ -58,17 +58,17 @@ function nuevoUsuario(nombre, email, password) {
   }
   return obj;
 }
+var usuario = {
+  email: ''
+}
 
 function tieneEmail(usuario) {
   // Devuelve "true" si el usuario tiene un valor definido para la propiedad "email"
   // De lo contratio, devuelve "false"
   // Tu código:
-  var usuario = {
-    email: ''
-  }
     if (usuario.email){
       return true;
-    }else{
+    } else {
     return false;
   }
 }
@@ -97,15 +97,15 @@ function verificarPassword(usuario, password) {
   return usuario.password === password;
 }
 // {
-// password: '123'
-//}
-//'1234'
+//   password: '123'
+// }
+// '1234'
 
 function actualizarPassword(usuario, nuevaPassword) {
   // Reemplaza la contraseña existente en el objeto "usuario" con el valor de "nuevagPassword"
   // Devuelve el objeto
   // Tu código:
-  usuario.password === nuevaPassword;
+  usuario.password = nuevaPassword;
   return usuario;
 }
 
