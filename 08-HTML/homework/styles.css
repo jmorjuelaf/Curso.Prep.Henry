@@ -1,0 +1,24 @@
+h1{
+    color:blue;
+  }
+  img {
+    width:400px;  
+  }
+  #thirdDiv{
+    height: 600px;
+    width: 500px;
+    padding: 50px;
+    background-color: aqua;
+    border-top-style: dashed;
+    border-right-style: double;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-top-color: #CC0000;
+    border-right-color: blue;
+    border-bottom-color: #00FF00;
+    border-left-color: #CC0000;
+  }
+  #spanId{
+    font-size: 18px;
+    margin: 50px;
+  }
